@@ -1,0 +1,17 @@
+.header #header-icon {
+  font-size: 2.5em;
+}
+
+.header #header-user-avatar {
+  font-size: 1.5em;
+  height: 45px;
+  width: 45px;
+}
+
+.header #header-username {
+  font-size: 1.5em;
+}
+
+.header #header-settings {
+  font-size: 0.875em;
+}

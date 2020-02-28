@@ -1,0 +1,24 @@
+body {
+  color: #444;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+#grid {
+  display: grid;
+  gap: 2.5em;
+  grid-gap: 2.5em;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 2.5em;
+}
+
+#table #table-title {
+  font-size: 1.5em;
+}
+
+.bg-custom {
+  background-color: #eee;
+}

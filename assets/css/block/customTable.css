@@ -1,0 +1,41 @@
+.custom-table {
+  border: 1px solid #ddd;
+  font-size: 0.875em;
+  width: 100%;
+}
+
+.custom-table td > * {
+  display: block;
+  margin-left: auto;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table td:first-child {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.custom-table td:first-child,
+.custom-table td:last-child {
+  padding: 1em;
+}
+.custom-table td:last-child {
+  display: flex;
+}
+
+.custom-table .custom-table__btn:last-child {
+  background-color: #333;
+  color: #ddd;
+  margin-left: 1em;
+}
+
+.custom-table .custom-table__btn {
+  background: #bbb;
+  border: none;
+  border-radius: 2px;
+  color: #666;
+  padding: 0.375em 1.5em;
+}
