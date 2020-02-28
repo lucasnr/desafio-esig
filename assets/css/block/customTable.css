@@ -27,15 +27,15 @@
 }
 
 .custom-table .custom-table__btn:last-child {
-  background-color: #333;
-  color: #ddd;
+  background-color: #38d;
+  color: #fff;
   margin-left: 1em;
 }
 
 .custom-table .custom-table__btn {
-  background: #bbb;
+  background: #aaf;
   border: none;
   border-radius: 2px;
-  color: #666;
+  color: #fff;
   padding: 0.375em 1.5em;
 }

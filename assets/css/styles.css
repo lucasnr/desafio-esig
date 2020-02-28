@@ -20,5 +20,14 @@ body {
 }
 
 .bg-custom {
-  background-color: #eee;
+  background-color: #38d !important;
+  color: #fff !important;
+}
+
+.text-custom {
+  color: #38d !important;
+}
+
+.border-custom {
+  border-color: #38d !important;
 }
