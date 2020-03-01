@@ -37,11 +37,11 @@
 }
 
 .info-card .info-card__content {
-  color: #38d;
+  color: var(--primary);
 }
 
 .info-card .info-card__icon {
-  color: #38d;
+  color: var(--primary);
   font-size: 2em;
 }
 

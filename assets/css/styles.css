@@ -1,49 +1,36 @@
 body {
-	color: #444;
+  color: #444;
 }
 
 * {
-	box-sizing: border-box;
-	outline: none !important;
+  box-sizing: border-box;
+  outline: none !important;
 }
 
 #grid {
-	display: grid;
-	gap: 2.5em;
-	grid-gap: 2.5em;
-	margin-bottom: 2.5em;
+  display: grid;
+  gap: 2.5em;
+  grid-gap: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 #table #table-title {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .main {
-	max-width: 992px;
-}
-
-.bg-custom {
-	background-color: #38d !important;
-	color: #fff !important;
-}
-
-.text-custom {
-	color: #38d !important;
-}
-
-.border-custom {
-	border-color: #38d !important;
+  max-width: 992px;
 }
 
 @media (min-width: 572px) and (max-width: 768px) {
-	#doughnut-chart {
-		max-width: 400px !important;
-		height: auto !important;
-	}
+  #doughnut-chart {
+    max-width: 400px !important;
+    height: auto !important;
+  }
 }
 
 @media (min-width: 768px) {
-	#grid {
-		grid-template-columns: repeat(3, 1fr);
-	}
+  #grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

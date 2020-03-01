@@ -18,7 +18,7 @@
 
 .sidebar .sidebar__nav__link:hover,
 .sidebar .sidebar__nav__link.sidebar__nav__link--active {
-  color: #38d;
+  color: var(--primary);
 }
 
 .sidebar .sidebar__nav .sidebar__nav__item {
