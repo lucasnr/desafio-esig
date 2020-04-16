@@ -1,26 +1,26 @@
 .sidebar {
-  background-color: #f9f9f9;
+	background-color: #f9f9f9;
 }
 
 .sidebar .sidebar__toggle-btn,
 .sidebar .sidebar__nav__link {
-  color: inherit;
-  font-size: 2.25em;
-  transition: color 0.15s linear, background-color 0.15s linear;
+	color: inherit;
+	font-size: 2.25rem;
+	transition: color 0.15s linear, background-color 0.15s linear;
 }
 
 .sidebar .sidebar__nav__link {
-  display: block;
-  font-size: 2em !important;
-  text-align: center;
-  width: 100%;
+	display: block;
+	font-size: 2rem !important;
+	text-align: center;
+	width: 100%;
 }
 
 .sidebar .sidebar__nav__link:hover,
 .sidebar .sidebar__nav__link.sidebar__nav__link--active {
-  color: var(--primary);
+	color: #007bff !important;
 }
 
 .sidebar .sidebar__nav .sidebar__nav__item {
-  margin: 0.5em 0px;
+	margin: 0.5rem 0px;
 }
